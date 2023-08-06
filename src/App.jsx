@@ -1,4 +1,4 @@
-import ClearUp from "./components/useeffect/ClearnUp";
+// import ClearUp from "./components/useeffect/ClearnUp";
 // import UseEffect from "./components/useeffect/UseEffect";
 // import UseState from "./components/usestate/UseState";
 // import UseStateObject from "./components/usestate/UseStateObject";
@@ -8,12 +8,12 @@ import ClearUp from "./components/useeffect/ClearnUp";
 // import RefHook1 from "./components/useref/RefHook1";
 // import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 // import MemoHook from "./components/usememo/MemoHook";
-// import Callbackhook from "./components/usecallback/CallbackHook";
+import Callbackhook from "./components/usecallback/CallbackHook";
 
 const App = () => {
   return (
   <>
-  <ClearUp/>
+  <Callbackhook/>
   </>
   )
 };
