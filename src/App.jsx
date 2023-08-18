@@ -8,12 +8,16 @@
 // import RefHook1 from "./components/useref/RefHook1";
 // import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 // import MemoHook from "./components/usememo/MemoHook";
-import Callbackhook from "./components/usecallback/CallbackHook";
+// import Callbackhook from "./components/usecallback/CallbackHook";
+
+import Apractic from "./Apractic";
+
+
 
 const App = () => {
   return (
   <>
-  <Callbackhook/>
+  <Apractic/>
   </>
   )
 };

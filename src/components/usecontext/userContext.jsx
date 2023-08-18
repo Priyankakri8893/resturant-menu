@@ -1,19 +1,20 @@
-import { createContext, useContext } from "react";
+// import { createContext, useContext } from "react";
 
-const AppContext = createContext();
+// const AppContext = createContext();
 
-const AppProvider = ({ children }) => {
-  const userData = {
-    name: "vinod",
-    age: 28,
-  };
+// const AppProvider = ({ children }) => {
+//   const userData = {
+//     name: "vinod",
+//     age: 28,
+//   };
 
-  return <AppContext.Provider value={userData}>{children}</AppContext.Provider>;
-};
+//   return <AppContext.Provider value={userData}>{children}</AppContext.Provider>;
+// };
 
-// custom hook
-const useGlobalContext = () => {
-  return useContext(AppContext);
-};
+// // custom hook
+// const useGlobalContext = () => {
+//   return useContext(AppContext);
+// };
 
-export { AppContext, AppProvider, useGlobalContext };
+// export { AppContext, AppProvider, useGlobalContext };
+
